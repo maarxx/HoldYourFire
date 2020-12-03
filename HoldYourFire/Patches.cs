@@ -40,9 +40,9 @@ namespace HoldYourFire
         {
             static void Postfix(Pawn_DraftController __instance)
             {
-                String weaponDefName = __instance.pawn.equipment.Primary.def.defName;
-                Log.Message("Hello from Patch_Pawn_DraftController_Drafted: " + weaponDefName);
-                if (defsNotToAutofire.Contains(weaponDefName)) {
+                //Lazy safe-nav, might not have a primary weapon equipped at all.
+                String weaponDefName = __instance.pawn.equipment.Primary?.def?.defName;
+                if (weaponDefName != null && defsNotToAutofire.Contains(weaponDefName)) {
                     __instance.FireAtWill = false;
                 }
             }
@@ -54,9 +54,9 @@ namespace HoldYourFire
         {
             static void Postfix(Pawn_DraftController __instance)
             {
-                String weaponDefName = __instance.pawn.equipment.Primary.def.defName;
-                Log.Message("Hello from Patch_Pawn_DraftController_Notify_PrimaryWeaponChanged: " + weaponDefName);
-                if (defsNotToAutofire.Contains(weaponDefName))
+                //Lazy safe-nav, might not have a primary weapon equipped at all.
+                String weaponDefName = __instance.pawn.equipment.Primary?.def?.defName;
+                if (weaponDefName != null && defsNotToAutofire.Contains(weaponDefName))
                 {
                     __instance.FireAtWill = false;
                 }
