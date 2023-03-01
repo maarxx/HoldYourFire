@@ -27,11 +27,13 @@ namespace HoldYourFire
             "Gun_IncendiaryLauncher",
             "Gun_SmokeLauncher",
             "Gun_EmpLauncher",
+            "Gun_ToxbombLauncher",
             "Gun_DoomsdayRocket",
             "Gun_TripleRocket",
             "Weapon_GrenadeMolotov",
             "Weapon_GrenadeEMP",
-            "Weapon_GrenadeFrag"
+            "Weapon_GrenadeFrag",
+            "Weapon_GrenadeTox"
         };
 
         [HarmonyPatch(typeof(Pawn_DraftController))]
