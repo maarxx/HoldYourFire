@@ -2,7 +2,7 @@
 
 This is a mod for the game RimWorld by Ludeon Studios.
 
-It has dangerous weapons default to "Fire At Will" disabled.
+The mod changes dangerous weapons default to "Fire At Will" disabled.
 
 We're on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2324531948
 
@@ -12,9 +12,7 @@ We're on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=232453194
 
 # Introduction and Explanation
 
-You'll add the mod. You'll enable the mod.
-
-Dangerous weapons will default to "Fire At Will" disabled when a colonist is drafted.
+The mod changes dangerous weapons default to "Fire At Will" disabled.
 
 You can manually fire the weapon or manually enable "Fire At Will".
 
