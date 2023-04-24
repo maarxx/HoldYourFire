@@ -8,15 +8,18 @@ We're on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=232453194
 
 # Table of Contents
 
-* [Introduction and Explanation](#introduction-and-explanation)
+* [Introduction](#introduction)
+* [Explanation](#explanation)
 
-# Introduction and Explanation
+# Introduction
 
 The mod changes dangerous weapons default to "Fire At Will" disabled.
 
 You can manually fire the weapon or manually enable "Fire At Will".
 
 If you undraft-and-redraft, such weapons will default back to "Fire At Will" disabled.
+
+# Explanation
 
 Such weapons include:
 
