@@ -3,7 +3,13 @@
   <name>HoldYourFire</name>
   <author>Maarx</author>
   <url>https://github.com/maarxx/HoldYourFire/</url>
-  <description>Dangerous weapons default to "Fire At Will" disabled.</description>
+  <description>
+The mod changes dangerous weapons default to "Fire At Will" disabled.
+
+You can manually fire the weapon or manually enable "Fire At Will".
+
+If you undraft-and-redraft, such weapons will default back to "Fire At Will" disabled.
+  </description>
   <packageId>maarx.holdyourfire</packageId>
   <supportedVersions>
     <li>1.2</li>
