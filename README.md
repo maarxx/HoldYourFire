@@ -23,13 +23,13 @@ If you undraft-and-redraft, such weapons will default back to "Fire At Will" dis
 
 Such weapons include:
 
-"Gun_IncendiaryLauncher"
-"Gun_SmokeLauncher"
-"Gun_EmpLauncher"
-"Gun_ToxbombLauncher"
-"Gun_DoomsdayRocket"
-"Gun_TripleRocket"
-"Weapon_GrenadeMolotov"
-"Weapon_GrenadeEMP"
-"Weapon_GrenadeFrag"
-"Weapon_GrenadeTox"
+* "Gun_IncendiaryLauncher"
+* "Gun_SmokeLauncher"
+* "Gun_EmpLauncher"
+* "Gun_ToxbombLauncher"
+* "Gun_DoomsdayRocket"
+* "Gun_TripleRocket"
+* "Weapon_GrenadeMolotov"
+* "Weapon_GrenadeEMP"
+* "Weapon_GrenadeFrag"
+* "Weapon_GrenadeTox"
